@@ -22,8 +22,6 @@
     background-color: black;
     color: white;
     border-radius: 50%;
-    
-
 }
 
 .ikonka a:hover {
@@ -36,9 +34,65 @@
 .tecza {
     background: linear-gradient(to right, red, orange, yellow, pink, violet, blue, green);
     height: 100px;
-    
 }
 
-li {
-    list-style-image: 
+.chmura {
+    font-size: 15px;
 }
+
+.fa fa-cloud {
+    font-size: 10px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: gainsboro;
+    border: #2b4a64 0px;
+    text-decoration-color: red;
+}
+
+input::placeholder {
+    color: palevioletred;
+}
+
+/* link doc na czerwono */
+
+a[href$="doc"]{
+    color: rosybrown;
+}
+
+a[href$="docx"]{
+    color: slategrey;
+}
+
+/*.child {
+    width: 150px;
+    height: 150px;
+    background-color: papayawhip;
+    background-image: url(js.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.child {
+    transform: scale(1.5);
+}
+
+.parent:hover .child {
+    
+    transform: scale(2);
+}*/
+
+
+
+
+
+
+
+
+
+
+
