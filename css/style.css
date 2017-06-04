@@ -1,5 +1,16 @@
-#kwadrat-pierwszy {
-    width: 400px;
-    height: 400px;
-    background-color: darksalmon
+
+#pierwszy {
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+    position: relative;
 }
+
+#drugi {
+    width: 150px;
+    height: 150px;
+    background-color: dimgrey;
+    position: absolute;
+    transform: translate(50%, 50%);
+}
+    
