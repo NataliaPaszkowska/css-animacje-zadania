@@ -1,4 +1,4 @@
-/*
+
 #pierwszy {
     width: 300px;
     height: 300px;
@@ -12,7 +12,7 @@
     background-color: dimgrey;
     position: absolute;
     transform: translate(50%, 50%);
-}*/
+}
     
 .ikonka a {
     font-size: 100px;
@@ -31,4 +31,14 @@
     background-color: white;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.tecza {
+    background: linear-gradient(to right, red, orange, yellow, pink, violet, blue, green);
+    height: 100px;
+    
+}
+
+li {
+    list-style-image: 
 }
